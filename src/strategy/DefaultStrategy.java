@@ -1,10 +1,10 @@
 package strategy;
 
-public class StrategyImpl3 implements Strategy {
+public class DefaultStrategy implements Strategy {
     @Override
     public void apply() {
         System.out.println("***********************");
-        System.out.println("Fird strategy");
+        System.out.println("Default strategy");
         System.out.println("***********************");
     }
 }

@@ -1,10 +1,10 @@
 package strategy;
 
-public class StrategyImpl1 implements Strategy {
+public class StrategyImpl2 implements Strategy {
     @Override
     public void apply() {
-        System.out.println("................................");
-        System.out.println("First strategy");
-        System.out.println("................................");
+        System.out.println("========================");
+        System.out.println("Second strategy");
+        System.out.println("========================");
     }
 }
